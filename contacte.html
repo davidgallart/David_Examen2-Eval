@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicacions Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="tit"> <a class="goya" href="index.html">Premis GOYA</a> </h2>
+    </header>
+    <nav>
+        <div class="nav">
+    <a href="edicionesant.html" class="mark">Ediciones Anteriores</a> - <a href="nominados.html" class="mark">Nominats</a> - <a href="contacte.html" class="mark">Contacte</a>
+    </div>
+    </nav>
+    <article>
+        <div class="pcont">
+        <form action="votacion.php" class="pcont">
+     
+            <h3 class="tcontac">Contacte</h3><br>
+            <div class="der">
+            <h3 class="contac">Nom <input type="text" name="nom" placeholder="Nom">
+            </h3></div><br>
+           
+           <div class="izq"> <h3 class="contac">Cognom <input type="text" name="cognom" placeholder="Cognom"></h3><br>
+           </div>
+           <div class="der">
+           <h3 class="contac">Peli favorita  <input type="checkbox" name="nose" checked> </h3> 
+           </div> <br>
+            <div class="izq">
+            <h3 class="contac">Puntuacio <input type="number" name="numero" min="1" max="10" step="1"></h3>
+            </div>
+            <div class="der">
+          <h3 class="contac">Opinio <textarea name="opinip" cols="30" rows="10"></textarea>
+           </h3> </div><br>
+           <div class="vot">
+            <input class="vot" type="submit" value="Votar"></div>
+       </form></div>
+    </article>
+
+    
+</body>
+</html>

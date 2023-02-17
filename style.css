@@ -1,0 +1,116 @@
+h2.tit{
+    font-weight: bold;
+    background-color: lightpink;
+    color: blue;
+    text-align: center;
+
+}
+div.nav{
+    text-align: center;
+    background-color: aliceblue;
+    display: block;
+}
+
+a.mark{
+    background-color: aliceblue;
+color: royalblue;
+}
+a.mark:hover{
+    background-color: yellow;
+    color: black;
+}
+div.edic{
+    background-color: lightsalmon;
+    color: blue;
+    position: relative;  
+    text-align: center;
+    z-index: 2;
+    height: 300px;
+    width: 300px;
+    top: 50px;
+    left: 140px;
+    display: inline-block;
+
+  
+}
+div.nomin{
+    background-color: lightseagreen;
+    color: red;
+    position: relative; 
+    text-align: center;
+    z-index: 3;
+    height: 300px;
+    width: 300px;
+    top:55px;
+    left: 200px;
+    margin-inline: 0%;
+    display: inline-block;
+}
+
+div.cont{
+    background-color: lightsalmon;
+    color: blue;
+    position: relative;
+    text-align: center;
+   z-index: 1;
+    height: 300px;
+    width: 300px;
+    top: 65px;
+    left: 300px;
+    display: inline-block;
+}
+img{
+    position: relative;
+    width: 230px;
+    height: 230px;
+    
+}
+div.fot{
+    background-color: yellow;
+    color: blue;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+div.pcont{
+    background-color:lightsalmon;
+    height: 590px;
+    width: 700px;
+    position: relative;
+}
+h3.contac{
+color: blue;
+}
+h3.contacr{
+    color: blue;
+    text-align: right;
+    }
+h3.tcontac{
+    color: blue;
+    text-align: center;
+    }
+   
+
+    
+    textarea{
+        left: 300px;
+       resize: none;
+    }
+    div.izq{
+        text-align: right;
+        position: relative;
+    bottom: 80px;
+    right: 18%;
+    }
+  div.der{
+    position: relative;
+    left: 18%;
+  }
+  div.vot{
+    position: relative;
+    left: 280px;
+  }
+  a.goya{
+    text-decoration: none;
+    color: blue;
+  }
